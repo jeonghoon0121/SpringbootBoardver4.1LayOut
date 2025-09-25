@@ -45,10 +45,11 @@ nav.menu1 a:hover {
 main {
     padding: 60px 40px;
     background-color: #eef6f2;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .board-card {
     background-color: white;
